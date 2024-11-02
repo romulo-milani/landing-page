@@ -1,0 +1,45 @@
+/*CSS RESET*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
+/*HEADER*/
+
+.header {
+    background-color: #1F2937;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+
+    display: flex;
+    gap: 2rem;
+}
