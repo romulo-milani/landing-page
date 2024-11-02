@@ -1,1 +1,1 @@
-# landing-page
+Nesse projeto fizemos o clone de uma landing page usando Flexbox.
