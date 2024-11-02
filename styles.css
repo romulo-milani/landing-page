@@ -153,3 +153,32 @@ h2 {
     font-size: 20px;
     color: rgb(105, 104, 104);
 }
+
+/*THIRD-SECTION*/
+
+.third-section {
+    height: 600px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 800px;
+    height: 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;    
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 530;
+    color: #1F2937;
+    text-align: right;
+}
