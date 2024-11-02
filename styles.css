@@ -29,6 +29,12 @@ h2 {
     font-weight: 900;
 }
 
+h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
 
 /*HEADER*/
 
@@ -167,6 +173,9 @@ h2 {
 .quote-container {
     width: 800px;
     height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .quote {
@@ -177,8 +186,50 @@ h2 {
 }
 
 .name {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 530;
     color: #1F2937;
     text-align: right;
+}
+
+/*FOURTH-SECTION*/
+
+.fourth-section {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color: #3382f6;
+    width: 1000px;
+    height: 200px;
+    padding: 35px;
+    border-radius: 8px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-up-text {
+    font-size: 20px;
+    color: #f9faf8dc;
+    margin-top: 10px;
+}
+
+.second-button {
+    background-color: #3382f6;
+    color: #F9FAF8;
+    width: 130px;
+    height: 50px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
